@@ -11,13 +11,13 @@
       
     </header>
     <main class="content">
-      <section class="title-content">
+      <section class="title-section">
         <div>
             <h1 class="title"><span class="title title_color">Эффективная</span><br> защита</h1>
             <p class="text">в области<br> уголовного права</p>
         </div>
       </section>
-
+      <section class="tab-section">
         <div class="tab">
         <button class="tablinks" onclick="openCity(event, 'request')" id="defaultOpen">Запрос</button>
         <button class="tablinks" onclick="openCity(event, 'search')">Обыск</button>
@@ -30,15 +30,15 @@
 
         <div id="request" class="tabcontent">
         <div class="tab-content">
-            <img src="/src/images/Image_tab.jpg" alt="" class="">
-            <div>
+            <img class="tab-content__img" src="/src/images/Image_tab.jpg" alt="" class="">
+            <div class="tab-container">
             <ul class="tab-list">
-                <li>Если Вы выступаете по делу в качестве свидетеля, жизненно важно обеспечить неизменность этого. </li>
-                <li>Если Вы выступаете по делу в качестве свидетеля, жизненно важно обеспечить неизменность этого. </li>
-                <li>Если Вы выступаете по делу в качестве свидетеля, жизненно важно обеспечить неизменность этого. </li>
-                <li>Если Вы выступаете по делу в качестве свидетеля, жизненно важно обеспечить неизменность этого. </li>
+                <li class="tab-list__item">Если Вы выступаете по делу в качестве свидетеля, жизненно важно обеспечить неизменность этого. </li>
+                <li class="tab-list__item">Если Вы выступаете по делу в качестве свидетеля, жизненно важно обеспечить неизменность этого. </li>
+                <li class="tab-list__item">Если Вы выступаете по делу в качестве свидетеля, жизненно важно обеспечить неизменность этого. </li>
+                <li class="tab-list__item">Если Вы выступаете по делу в качестве свидетеля, жизненно важно обеспечить неизменность этого. </li>
             </ul>
-            <a>Читать статью<img></a>
+            <a class="link tab-content__link" href="/">Читать статью<img class="tab-content__icon" src="/src/images/arrow_right.svg" alt="icon"></a>
             </div>
         </div>
         </div>
@@ -73,18 +73,45 @@
         <p>London is the capital city of England.</p>
         </div>
     
-    
-
-      </section>
-      <section class="marquee">
-            
-      </section>
-      <section class="events">
+          </section>
+          <section class="events">
+            <div class="events__title">
+              <h2 class="event__titile-text">события</h2>
+              <div class="events__link">
+                <a class="link " href="/" target="_blank">Смотреть все</a>
+                <img src="/src/images/arrow_right.svg" alt="">
+              </div>
+            </div>
         
-      </section>
+          </section>
+     
     </main>
     <footer class="footer">
+       <h4 class="foote-titile">Контакты</h4>
+        <div class="footer-colums">
+        <div class="footer-col footer-first">
+          <ul>
+              <li>Email</li>
+              <li>Вконтакте</li>
+          </ul>
+        </div>
+        <div class="footer-col footer-second">
+          <div>
+            <img>
+            <p>Эффективная защита<br>
+              в области уголовного права</p>
 
+          </div>
+          <div>
+            <div>
+            <p>+7 495 660 37 60</p>
+            <p>Новослободская 23</p>
+            </div>
+            <p>Copyright © Адвокатское бюро «ЗКС»</p>
+            <p>Политика обработки персональных данных</p>
+          </div>
+        </div>
+      </div>
     </footer>
     <script src="/index.js">
 
